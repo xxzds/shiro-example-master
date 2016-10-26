@@ -1,0 +1,1981 @@
+2014-02-13 19:30:32,640 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:30:34,359 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2014-02-13 19:30:53,500 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2014-02-13 19:30:53,500 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2014-02-13 19:30:53,500 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2014-02-13 19:32:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:32:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:32:44,562 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter14-server/
+2014-02-13 19:32:44,562 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter14-server/
+2014-02-13 19:32:44,593 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-x2tHGWlhDbSRK7K2JJBUfdiik0XYdO5dC2baBoHaZiCr7RPPZ4-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:32:44 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:32:55,796 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated zhang+password
+2014-02-13 19:32:55,796 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated zhang with credentials [zhang+password].
+2014-02-13 19:32:55,796 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [zhang+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:32:55 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:32:55,812 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-k5VDkrLi9O7PN0SrxdeTwPkSekcIDoPNSFbEaidShcvGf6N3Dc-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:32:55 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:32:55,812 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-x2tHGWlhDbSRK7K2JJBUfdiik0XYdO5dC2baBoHaZiCr7RPPZ4-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:32:55 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:32:55,812 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-1-syALsFELOTeRYrLBWBft-cas01.example.org] for service [https://localhost:9443/chapter14-client1/cas] for user [zhang]
+2014-02-13 19:32:55,812 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-1-syALsFELOTeRYrLBWBft-cas01.example.org for https://localhost:9443/chapter14-client1/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:32:55 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:34:04,312 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-2-32oo925KsLsrO47uhMyG-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 19:34:04,312 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-2-32oo925KsLsrO47uhMyG-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:34:04 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:34:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:34:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:36:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:36:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:38:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:38:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:40:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:40:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:42:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:42:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:42:50,359 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-3-BkdT0SO1ZRcJcH4Z7Mfb-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 19:42:50,359 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-3-BkdT0SO1ZRcJcH4Z7Mfb-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:42:50 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:43:44,203 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-4-hbtyrUbVbmQOFHjiWsPj-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 19:43:44,218 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-4-hbtyrUbVbmQOFHjiWsPj-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:43:44 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:43:44,843 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-4-hbtyrUbVbmQOFHjiWsPj-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:43:44 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:44:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:44:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:45:04,750 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-5-yCuYfa0qIBygV6wkpTyI-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:04,750 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-5-yCuYfa0qIBygV6wkpTyI-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:04 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:04,843 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-5-yCuYfa0qIBygV6wkpTyI-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:04 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:08,562 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-6-Lmk9iL2kCxmAxsVWp4ck-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:08,562 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-6-Lmk9iL2kCxmAxsVWp4ck-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:08 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:08,578 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-6-Lmk9iL2kCxmAxsVWp4ck-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:08 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:10,125 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-7-jgXhqhSwFgcc5P1P2Gnc-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:10,125 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-7-jgXhqhSwFgcc5P1P2Gnc-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:10 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:10,140 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-7-jgXhqhSwFgcc5P1P2Gnc-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:10 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:10,625 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-8-ddKc2wR1RBVSQheq5T9M-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:10,625 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-8-ddKc2wR1RBVSQheq5T9M-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:10 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:10,640 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-8-ddKc2wR1RBVSQheq5T9M-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:10 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:12,546 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-9-Q6U0oNuvr339PwesbdkI-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:12,546 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-9-Q6U0oNuvr339PwesbdkI-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:12 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:12,562 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-9-Q6U0oNuvr339PwesbdkI-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:12 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:13,078 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-10-QsdvazMh9bfOq1rtw1ni-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:13,078 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-10-QsdvazMh9bfOq1rtw1ni-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:13 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:13,093 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-10-QsdvazMh9bfOq1rtw1ni-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:13 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:13,265 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-11-KuuhRK9S6ROcJEajFoXU-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:13,265 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-11-KuuhRK9S6ROcJEajFoXU-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:13 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:13,281 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-11-KuuhRK9S6ROcJEajFoXU-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:13 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:13,500 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-12-ehgdIc47SbxBmDbi4pSg-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:13,500 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-12-ehgdIc47SbxBmDbi4pSg-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:13 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:13,546 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-12-ehgdIc47SbxBmDbi4pSg-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:13 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:13,812 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-13-pdDCz5dA2HTE5EH2Mi1t-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:13,812 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-13-pdDCz5dA2HTE5EH2Mi1t-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:13 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:13,828 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-13-pdDCz5dA2HTE5EH2Mi1t-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:13 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:14,062 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-14-1t1EMsl9pRcFJNwvhn6z-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:14,062 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-14-1t1EMsl9pRcFJNwvhn6z-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:14 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:14,078 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-14-1t1EMsl9pRcFJNwvhn6z-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:14 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:14,390 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-15-IohvQ7L9HTjFlwbepIMo-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:14,390 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-15-IohvQ7L9HTjFlwbepIMo-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:14 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:14,406 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-15-IohvQ7L9HTjFlwbepIMo-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:14 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:19,203 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-16-00tMp9YibYDUodMfuWLS-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:45:19,203 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-16-00tMp9YibYDUodMfuWLS-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:19 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:45:19,234 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-16-00tMp9YibYDUodMfuWLS-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:45:19 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:46:09,843 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-17-KJcSPw9Q366N4OLiWYSH-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas-login] for user [zhang]
+2014-02-13 19:46:09,843 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-17-KJcSPw9Q366N4OLiWYSH-cas01.example.org for https://localhost:9443/chapter14-client/cas-login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:46:09 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:46:09,953 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-17-KJcSPw9Q366N4OLiWYSH-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:46:09 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:46:32,859 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:46:32,859 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:48:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:48:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:50:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:50:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:52:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:52:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:54:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:54:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 19:55:48,187 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-18-CsF5PpaVcff1xGLwand7-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 19:55:48,187 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-18-CsF5PpaVcff1xGLwand7-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:55:48 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:55:48,281 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-18-CsF5PpaVcff1xGLwand7-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 19:55:48 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 19:56:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 19:56:32,812 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:12:11,296 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:12:13,140 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2014-02-13 20:12:16,890 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter14-server/
+2014-02-13 20:12:16,890 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter14-server/
+2014-02-13 20:12:16,921 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-k5VDkrLi9O7PN0SrxdeTwPkSekcIDoPNSFbEaidShcvGf6N3Dc-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:12:16 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:12:23,453 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated zhang+password
+2014-02-13 20:12:23,453 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated zhang with credentials [zhang+password].
+2014-02-13 20:12:23,453 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [zhang+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:12:23 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:12:23,453 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-AWdDApez7Q3xVKANuouiS0FvdDZQARINkYJCXEcfh4Rvky1u2n-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:12:23 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:12:23,453 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-k5VDkrLi9O7PN0SrxdeTwPkSekcIDoPNSFbEaidShcvGf6N3Dc-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:12:23 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:12:23,453 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-1-HalsJv4lnjBgmbPTgr3S-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 20:12:23,453 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-1-HalsJv4lnjBgmbPTgr3S-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:12:23 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:12:24,468 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-1-HalsJv4lnjBgmbPTgr3S-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:12:24 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:12:32,328 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2014-02-13 20:12:32,328 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2014-02-13 20:12:32,328 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2014-02-13 20:13:00,265 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-2-Gc0WPVYTD9tfzfBgagij-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 20:13:00,265 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-2-Gc0WPVYTD9tfzfBgagij-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:00 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:00,359 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-2-Gc0WPVYTD9tfzfBgagij-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:00 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:19,515 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-3-xV4QDcv9qpYymE93DKnn-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 20:13:19,515 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-3-xV4QDcv9qpYymE93DKnn-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:19 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:19,531 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-3-xV4QDcv9qpYymE93DKnn-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:19 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:21,625 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-4-jcuv6msDRCUfslPBVdwa-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 20:13:21,625 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-4-jcuv6msDRCUfslPBVdwa-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:21 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:21,640 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-4-jcuv6msDRCUfslPBVdwa-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:21 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:22,375 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-5-ZbYachbln0LpnLhsYoyw-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 20:13:22,375 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-5-ZbYachbln0LpnLhsYoyw-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:22 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:22,390 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-5-ZbYachbln0LpnLhsYoyw-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:22 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:22,734 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-6-EBwDDOaTTPi35UsriSSu-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 20:13:22,734 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-6-EBwDDOaTTPi35UsriSSu-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:22 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:22,750 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-6-EBwDDOaTTPi35UsriSSu-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:22 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:23,000 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-7-jfvY0HfiYU5UIVdOwrcE-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 20:13:23,000 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-7-jfvY0HfiYU5UIVdOwrcE-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:23 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:13:23,015 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-7-jfvY0HfiYU5UIVdOwrcE-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:13:23 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:14:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:14:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:16:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:16:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:18:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:18:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:20:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:20:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:22:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:22:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:23:05,859 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-8-MFr2iNdv3947mvfbbHwi-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 20:23:05,859 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-8-MFr2iNdv3947mvfbbHwi-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:23:05 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:23:05,937 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-8-MFr2iNdv3947mvfbbHwi-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:23:05 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:24:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:24:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:24:45,125 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-9-QWWb30robEph1Gr6CLEO-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 20:24:45,125 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-9-QWWb30robEph1Gr6CLEO-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:24:45 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:24:45,234 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-9-QWWb30robEph1Gr6CLEO-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:24:45 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:26:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:26:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:28:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:28:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:30:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:30:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:32:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:32:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:34:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:34:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:36:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:36:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:38:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:38:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:40:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:40:11,453 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:42:19,062 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:42:21,859 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2014-02-13 20:42:40,406 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2014-02-13 20:42:40,578 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2014-02-13 20:42:40,578 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2014-02-13 20:42:45,671 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter14-server/
+2014-02-13 20:42:45,671 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter14-server/
+2014-02-13 20:42:45,718 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-AWdDApez7Q3xVKANuouiS0FvdDZQARINkYJCXEcfh4Rvky1u2n-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:42:45 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:44:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:44:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:44:53,468 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated zhang+password
+2014-02-13 20:44:53,468 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated zhang with credentials [zhang+password].
+2014-02-13 20:44:53,468 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [zhang+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:44:53 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:44:53,468 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-2CJK7Va4CuUqLtkdB3VlioSbYsmabCa2nkfFEa0sDNBYVkJ9uc-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:44:53 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:44:53,468 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-AWdDApez7Q3xVKANuouiS0FvdDZQARINkYJCXEcfh4Rvky1u2n-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:44:53 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:44:53,468 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-1-eh2cIo92F9syvoMs5DOg-cas01.example.org] for service [https://localhost:9443/chapter14-client/cas] for user [zhang]
+2014-02-13 20:44:53,468 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-1-eh2cIo92F9syvoMs5DOg-cas01.example.org for https://localhost:9443/chapter14-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:44:53 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:44:53,625 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-1-eh2cIo92F9syvoMs5DOg-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 20:44:53 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 20:46:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:46:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:48:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:48:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:50:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:50:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:52:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:52:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:54:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:54:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:56:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:56:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 20:58:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 20:58:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:00:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:00:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:02:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:02:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:04:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:04:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:05:24,781 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated zhang+password
+2014-02-13 21:05:24,781 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated zhang with credentials [zhang+password].
+2014-02-13 21:05:24,781 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [zhang+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Thu Feb 13 21:05:24 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 21:05:24,781 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-2-6euhacZuUe7SVo4GR3kcn5LUIJl2xDg9tbyfqWa3OggJZNltJC-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 21:05:24 CST 2014
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2014-02-13 21:06:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:06:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:08:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:08:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:10:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:10:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:12:19,343 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:12:19,343 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:14:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:14:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:16:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:16:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:18:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:18:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:20:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:20:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:22:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:22:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:24:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:24:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:26:19,328 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:26:19,328 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:28:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:28:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:30:19,328 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:30:19,328 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:32:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:32:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:34:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:34:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:36:19,343 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:36:19,343 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:38:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:38:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:40:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:40:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:42:19,328 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:42:19,328 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:44:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:44:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:46:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:46:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-02-13 21:48:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-02-13 21:48:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-08 13:38:37,154 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-08 13:38:39,314 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-06-08 15:55:48,374 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/c]
+Offending resource: ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml]
+
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:277)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1378)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1354)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1342)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:260)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:153)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:132)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized_aroundBody0(SafeContextLoaderListener.java:75)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized_aroundBody1$advice(SafeContextLoaderListener.java:54)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:1)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2016-06-08 15:57:02,204 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/c]
+Offending resource: ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml]
+
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:277)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1378)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1354)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1342)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:260)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:153)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:132)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized_aroundBody0(SafeContextLoaderListener.java:75)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized_aroundBody1$advice(SafeContextLoaderListener.java:54)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:1)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2016-06-08 16:04:33,036 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/c]
+Offending resource: ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml]
+
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:277)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1378)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1354)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1342)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:260)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:153)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:132)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized_aroundBody0(SafeContextLoaderListener.java:75)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized_aroundBody1$advice(SafeContextLoaderListener.java:54)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:1)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2016-06-08 16:05:18,798 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/c]
+Offending resource: ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml]
+
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:277)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1378)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1354)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1342)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:260)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:153)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:132)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized_aroundBody0(SafeContextLoaderListener.java:75)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized_aroundBody1$advice(SafeContextLoaderListener.java:54)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:1)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2016-06-08 16:10:51,704 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/c]
+Offending resource: ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml]
+
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:277)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1378)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1354)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1342)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:260)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:153)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:132)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:75)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2016-06-08 16:19:12,534 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/c]
+Offending resource: ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml]
+
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:277)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1378)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1354)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1342)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:260)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:153)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:132)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:75)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2016-06-08 16:33:56,371 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/c]
+Offending resource: ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml]
+
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:277)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1378)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1354)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1342)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:260)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:153)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:132)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:75)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2016-06-08 16:50:08,704 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/c]
+Offending resource: ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml]
+
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:277)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1378)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1354)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1342)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:260)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:153)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:132)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:282)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:204)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:75)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2016-06-08 16:54:40,417 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 71 in XML document from ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 71; columnNumber: 57; 与元素类型 "bean" 相关联的属性 "c:serviceRegistryDao-ref" 的前缀 "c" 未绑定。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:396)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:282)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:204)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:75)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 71; columnNumber: 57; 与元素类型 "bean" 相关联的属性 "c:serviceRegistryDao-ref" 的前缀 "c" 未绑定。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:313)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 57 more
+2016-06-10 09:40:15,822 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/c]
+Offending resource: ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml]
+
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:277)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1378)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1354)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1342)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:260)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:153)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:132)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:282)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:204)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:75)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2016-06-10 09:49:11,237 ERROR [org.jasig.cas.web.init.SafeContextLoaderListener] - SafeContextLoaderListener: 
+The Spring ContextLoaderListener we wrap threw on contextInitialized.
+But for our having caught this error, the web application context would not have initialized.
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/c]
+Offending resource: ServletContext resource [/WEB-INF/spring-configuration/applicationContext.xml]
+
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:277)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1378)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1354)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1342)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:260)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:153)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:132)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:282)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:204)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.jasig.cas.web.init.SafeContextLoaderListener.contextInitialized(SafeContextLoaderListener.java:75)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:771)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:763)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:523)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+2016-06-10 10:04:32,613 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:04:34,223 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-06-10 10:04:53,264 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-06-10 10:04:53,266 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-06-10 10:04:53,266 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-06-10 10:05:28,978 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:05:30,708 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-06-10 10:05:49,909 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-06-10 10:05:49,913 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-06-10 10:05:49,913 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-06-10 10:06:12,855 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter15-server/
+2016-06-10 10:06:12,855 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter15-server/
+2016-06-10 10:07:29,178 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:07:29,180 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:09:29,176 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:09:29,178 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:11:29,178 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:11:29,178 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:13:29,175 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:13:29,175 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:15:29,177 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:15:29,177 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:17:29,175 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:17:29,177 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:18:55,921 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated zhang+password
+2016-06-10 10:18:55,922 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated zhang with credentials [zhang+password].
+2016-06-10 10:18:55,924 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [zhang+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Fri Jun 10 10:18:55 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-06-10 10:18:55,926 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-M1PbOIY5d9VrkDf04VDnxS4Evxzr3gubPSdFbVbtPwbaYA3Kvj-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri Jun 10 10:18:55 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-06-10 10:19:29,174 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:19:29,176 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:21:29,176 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:21:29,177 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:23:29,177 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:23:29,179 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:25:54,793 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:25:56,311 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-06-10 10:26:15,509 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-06-10 10:26:15,511 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-06-10 10:26:15,511 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-06-10 10:27:10,247 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter15-server/
+2016-06-10 10:27:10,247 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter15-server/
+2016-06-10 10:27:26,697 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated zhang+password
+2016-06-10 10:27:26,698 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated zhang with credentials [zhang+password].
+2016-06-10 10:27:26,699 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [zhang+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Fri Jun 10 10:27:26 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-06-10 10:27:26,701 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-HpdqxITWzed1bEvmoVmZwYAcXZKaEvPRs9wDE1FfbapgZekex7-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri Jun 10 10:27:26 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-06-10 10:27:26,705 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-1-n3gjFrYG3jXeXEfmnwGJ-cas01.example.org] for service [https://localhost:9443/chapter15-client/cas] for user [zhang]
+2016-06-10 10:27:26,705 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: zhang
+WHAT: ST-1-n3gjFrYG3jXeXEfmnwGJ-cas01.example.org for https://localhost:9443/chapter15-client/cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri Jun 10 10:27:26 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-06-10 10:27:54,937 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:27:54,938 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 10:29:54,942 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 10:29:54,943 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 15:09:54,947 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 15:09:54,948 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 15:25:54,936 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 15:25:54,937 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 16:27:54,940 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-06-10 16:27:54,941 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-06-10 16:28:12,233 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-HpdqxITWzed1bEvmoVmZwYAcXZKaEvPRs9wDE1FfbapgZekex7-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Fri Jun 10 16:28:12 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-06-10 16:28:12,352 WARN [org.jasig.cas.util.SimpleHttpClient] - Error Sending message to url endpoint [https://localhost:9443/chapter15-client/cas]. Error is [sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+2016-06-10 16:28:36,738 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,741 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.instructions] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,741 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.netid] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,741 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.netid.accesskey] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,742 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.password] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,742 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.password.accesskey] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,743 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.warn.accesskey] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,743 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.warn] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,743 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.button.login] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,743 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.button.clear] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,743 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.security] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:36,744 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [copyright] cannot be found in the language bundle for the locale [zh_TW]
+2016-06-10 16:28:41,039 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [logo.title] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,042 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.instructions] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,042 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.netid] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,042 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.netid.accesskey] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,044 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.password] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,044 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.password.accesskey] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,045 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.warn.accesskey] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,045 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.label.warn] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,045 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.button.login] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,045 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.button.clear] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,046 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [screen.welcome.security] cannot be found in the language bundle for the locale [zh_CN]
+2016-06-10 16:28:41,046 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [copyright] cannot be found in the language bundle for the locale [zh_CN]
